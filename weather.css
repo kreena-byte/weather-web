@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+   background-color: #222;
+}
+
+
+.card{
+    width: 90%;
+    max-width: 450px;
+    background: linear-gradient(to bottom, #f8d7e6, #f5c6da);
+    border-radius: 30px;
+    color: white;
+    margin: 100px auto 0px;
+    border-radius: 20px;
+    padding: 45px 35px;
+    text-align: center;
+}
+
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.search input{
+    font-size: 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-right: 15px;
+    flex: 1;
+    color: #555;
+    background: white;
+    box-shadow: 2px 2px 5px gray;
+}
+.search button{
+    width: 55px;
+    height: auto;
+    border: 0;
+    outline: 0;
+    border-radius: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.search button img{
+    width: 17px;
+    height: auto;
+    align-items: center;
+}
+
+
+.weather h1{
+    font-size: 70px;
+    color: black;
+}
+.weather h2{
+    font-size: 48px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.details{
+    display: flex;
+    padding:20px 10px ;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.colu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.colu img{
+    width: 60px;
+    height: auto;
+    color: black;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.colu p{
+   color: black;
+   font-size: 24px;
+   padding: 3px;
+}
+
+
+.weather{
+    display: none;
+}
+.weather-icon{
+    width: 220px;
+}
+.city{
+    font-weight: 600;
+}
+.description{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: black;
+    opacity: 0.9;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+
+.error{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-top: 11px;
+    margin-left: 10px;
+    font-weight: 580;
+    display: none;
+}
